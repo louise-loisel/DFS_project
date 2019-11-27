@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ce site est une simulation d'un coucours de pâtisserie.
+Le chef choisit les pâtisseries à partir d'une banque de données.
+Le manager choisit les collègues participants à la battle en fonction des préférences des collègues depuis une BDD. Une pâtisserie = un collègue sauf pour la catégorie "Fruit" ou il n'y a pas de restriction.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Développé avec Ruby On Rails
