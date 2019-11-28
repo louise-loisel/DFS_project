@@ -182,7 +182,9 @@ Par exemple, créons une méthode pour vérifier le contenu d’un élément :
 
  ```private void checkElement(String elementId, String expected) {
         assertThat(driver.findElement(By.id(elementId)).getText(), is(expected));
-    }```
+    }
+    
+```
 
 Ou encore, nous pouvons par exemple tester que le titre de la page d’accueil soit bien “ConsoMarseille”
 
