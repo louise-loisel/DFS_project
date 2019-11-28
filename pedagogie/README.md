@@ -83,10 +83,10 @@ On veut tester l’application très simple “cooking_battle”. Pour se faire 
 Téléchargez le dossier cooking_battle du dossier source. Celui ci est codé en Ruby et utilise le framework Ruby on rails. Nous allons donc devoir les installer dans un premier temps.
 
 Vérifier que vous avez bien Ruby sur le terminal :
-ruby -v
+'ruby -v'
 Si non, allez télécharger Ruby.
 Une fois cela fait, installez rails via la commande :
-‘gem install rails‘
+'gem install rails'
 Puis placez vous dans votre dossier cooking_battle et lancez l’application web via la commande :
 ‘rails server’
 
