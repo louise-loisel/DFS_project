@@ -51,7 +51,8 @@ Avant de se plonger plus précisément dans certaines des méthodes de test fonc
 
 - L’enregistreur de test : Il permet d’enregistrer les actions faites dans l’application sous forme de scénarios. On peut faire des ajouts de commandes pour rendre le test plus complet.
 - Les players de test permettent de jouer les tests. On peut trouver des players locaux (qui s’executent sur la machine de l’utilisateur), ou des players serveurst, tournant sur des machines liées au projet ou non (et qui ne bloquent pas l’utilisateur.
-- Les frameworks sont des outils d’écriture de tests. La plupart des langages sont couverts par un ou des frameworks de tests.Les drivers permettent le lien entre les navigateurs et les players.Sur les players locaux, ils sont généralement intégrés, mais dans le cadre de Selenium webdriver (le serveur de tests le plus répandu) ils sont à installer indépendamment.
+- Les frameworks sont des outils d’écriture de tests. La plupart des langages sont couverts par un ou des frameworks de tests.
+- Les drivers permettent le lien entre les navigateurs et les players.Sur les players locaux, ils sont généralement intégrés, mais dans le cadre de Selenium webdriver (le serveur de tests le plus répandu) ils sont à installer indépendamment.
 
 ### Zoom sur Selenium
 
