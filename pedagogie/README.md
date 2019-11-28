@@ -163,7 +163,7 @@ Pour le moment nous avons seulement mimé l’interaction de l’utilisateur sur
 
 Nous allons maintenant ajouter les vérifications que nous voulons effectuer dans nos tests.
 
-***Attente du chargement de page***
+*** Attente du chargement de page ***
 
 Avant de tester une page, nous devons nous assurer que le serveur a fini de l'envoyer. Selenium offre plusieurs moyens d'attendre que la page soit disponible. 
 
@@ -177,7 +177,7 @@ Le second d’attendre au plus 30 sec :
 ```driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);//utilisation de la classe du webDriver```
 
 
-***Vérification du contenu ***
+*** Vérification du contenu ***
 
 Vous pouvez maintenant réaliser vos propres tests, en créant des méthodes en utilisant celles importées avec selenium IDE. 
 Par exemple, créons une méthode pour vérifier le contenu d’un élément :
