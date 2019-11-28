@@ -84,9 +84,12 @@ Téléchargez le dossier cooking_battle du dossier source. Celui ci est codé en
 
 Vérifier que vous avez bien Ruby sur le terminal :
 ```ruby -v```
+
 Si non, allez télécharger Ruby.
 Une fois cela fait, installez rails via la commande :
+
 ```gem install rails```
+
 Puis placez vous dans votre dossier cooking_battle et lancez l’application web via la commande :
 ```rails server```
 
