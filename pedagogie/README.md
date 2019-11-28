@@ -13,7 +13,7 @@ Généralement, un test fonctionnel est associé à une User Story et teste son 
 ### Intérêts de ces tests
 > Assurer sereinement les évolutions de l'application : Les tests fonctionnels permettent de s’assurer, de façon automatique, que les modifications/évolutions effectuées n’impactent pas les autres fonctionnalités du site.
 
-> Découverte d’une application inconnu : Les tests fonctionnels  représentent une documentation précise du projet qui permet à quiconque arrivant en cours de route sur celui ci de comprendre rapidement de quoi il s’agit. 
+> Découverte d’une application inconnue : Les tests fonctionnels  représentent une documentation précise du projet qui permet à quiconque arrivant en cours de route sur celui ci de comprendre rapidement de quoi il s’agit. 
 
 Rapidité : Les tests automatiques sont beaucoup plus rapides que les tests manuels
 
