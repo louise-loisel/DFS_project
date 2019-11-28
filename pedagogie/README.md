@@ -164,6 +164,7 @@ Pour le moment nous avons seulement mimé l’interaction de l’utilisateur sur
 Nous allons maintenant ajouter les vérifications que nous voulons effectuer dans nos tests.
 
 Attente du chargement de page
+
 Avant de tester une page, nous devons nous assurer que le serveur a fini de l'envoyer. Selenium offre plusieurs moyens d'attendre que la page soit disponible. 
 
 Le premier est d'attendre le chargement de la page complète :
