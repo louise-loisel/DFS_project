@@ -122,7 +122,7 @@ Une fois la capture réalisée, vous pouvez exporter votre simulation dans le la
 
 Vous devriez obtenir cela :
 
-import ...
+```import ...
 public class AccueilproduitlocauxaccueilTest {
   private WebDriver driver;
   private Map<String, Object> vars;
@@ -147,6 +147,7 @@ public class AccueilproduitlocauxaccueilTest {
     js.executeScript("window.scrollTo(0,672)");
     driver.findElement(By.linkText("ACCUEIL")).click();
   }
+  ```
 
 
 
@@ -166,12 +167,12 @@ Avant de tester une page, nous devons nous assurer que le serveur a fini de l'en
 
 Le premier est d'attendre le chargement de la page complète :
 
-‘selenium.waitForPageToLoad("30000");  //utilisation de la classe’
-‘com.thoughtworks.selenium.Selenium’
+```selenium.waitForPageToLoad("30000");  //utilisation de la classe```
+```com.thoughtworks.selenium.Selenium```
 
 Le second d’attendre au plus 30 sec :
 
-‘driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);//utilisation de la classe du webDriver’
+```driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);//utilisation de la classe du webDriver```
 
 
 Vérification du contenu 
@@ -179,18 +180,19 @@ Vérification du contenu
 Vous pouvez maintenant réaliser vos propres tests, en créant des méthodes en utilisant celles importées avec selenium IDE. 
 Par exemple, créons une méthode pour vérifier le contenu d’un élément :
 
- 'private void checkElement(String elementId, String expected) {
+ ```private void checkElement(String elementId, String expected) {
         assertThat(driver.findElement(By.id(elementId)).getText(), is(expected));
-    }'
+    }```
 
 Ou encore, nous pouvons par exemple tester que le titre de la page d’accueil soit bien “ConsoMarseille”
 
-' public void test_titre_accueil () {
+``` public void test_titre_accueil () {
     driver.get("http://agastache.ovh1.ec-m.fr/dfs/index.html");
     driver.manage().window().setSize(new Dimension(1108, 714));
     WebElement titre = driver.findElement(By.id("titre"));
     assert (titre.getText(), is("ConsoMarseille"));
-  }'
+  }
+  ```
 
 C’est à vous de définir ce qui est important de tester sur chacune de vos pages.
 
