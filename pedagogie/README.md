@@ -176,18 +176,18 @@ Vérification du contenu
 Vous pouvez maintenant réaliser vos propres tests, en créant des méthodes en utilisant celles importées avec selenium IDE. 
 Par exemple, créons une méthode pour vérifier le contenu d’un élément :
 
- private void checkElement(String elementId, String expected) {
+ 'private void checkElement(String elementId, String expected) {
         assertThat(driver.findElement(By.id(elementId)).getText(), is(expected));
-    }
+    }'
 
 Ou encore, nous pouvons par exemple tester que le titre de la page d’accueil soit bien “ConsoMarseille”
 
- public void test_titre_accueil () {
+' public void test_titre_accueil () {
     driver.get("http://agastache.ovh1.ec-m.fr/dfs/index.html");
     driver.manage().window().setSize(new Dimension(1108, 714));
     WebElement titre = driver.findElement(By.id("titre"));
     assert (titre.getText(), is("ConsoMarseille"));
-  }
+  }'
 
 C’est à vous de définir ce qui est important de tester sur chacune de vos pages.
 
